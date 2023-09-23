@@ -10,7 +10,7 @@ export const handler = async (_event: APIGatewayProxyEvent): Promise<APIGatewayP
   } catch (err) {
     return {
       statusCode: 500,
-      body: 'An error occured',
+      body: 'An error occurred',
     };
   }
 };
